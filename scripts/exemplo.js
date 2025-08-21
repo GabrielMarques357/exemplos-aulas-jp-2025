@@ -40,9 +40,13 @@
 
 
 
-
-
-          const desafio = document.getElementById('desafio');
-         buttonExemploJS.addEventListener('click', () => {
-            desafio.createElement('h1').textContent = "Item"
+          const desafio = document.getElementById('desafio1');
+         desafio.addEventListener('click', () => {
+            desafio.createElement('h1')
          });
+
+
+          //const desafio = document.getElementById('desafio');
+          //desafio.addEventListener('click', () => {
+          //alert("Teste")
+         //});
